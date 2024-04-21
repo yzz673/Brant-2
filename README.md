@@ -1,24 +1,8 @@
 # Brant-2
 
-If you require access to our code and weights, please contact zhizhangyuan@zju.edu.cn **using your institutional email** and provide details about:
+**This project is currently undergoing updates, so we decide to temporarily suspend the provision of model code and weights to the public. We apologize for any inconvenience this may cause.**
 
-1. your institution,
-2. your intended use.
-
-We will review your request and get in touch with you accordingly. If your work have utilized our code and weights, please include the following citation: 
-
-```
-@misc{yuan2024brant2,
-      title={Brant-2: Foundation Model for Brain Signals}, 
-      author={Zhizhang Yuan and Daoze Zhang and Junru Chen and Gefei Gu and Yang Yang},
-      year={2024},
-      eprint={2402.10251},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.NC}
-}
-```
-
-Thank you for your attention.
+###########################################################################################
 
 ## Framework
 

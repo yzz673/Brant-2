@@ -1,6 +1,6 @@
 # BrainWave: A Brain Signal Foundation Model for Clinical Applications
 
-**The latest version of the manuscript is under review, we will release the code and weights upon publication. Here is the citation of the preprint version: **
+**The latest version of the manuscript is under review, we will release the code and weights upon publication. Here is the citation of the preprint version:**
 
 ```
 @misc{yuan2024brainwavebrainsignalfoundation,
@@ -15,9 +15,6 @@
 ```
 
 
-
-
-###########################################################################################
 
 ## Introduction
 

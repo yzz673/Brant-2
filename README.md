@@ -1,22 +1,31 @@
-# Brant-2
+# BrainWave: A Brain Signal Foundation Model for Clinical Applications
 
-**This project is currently undergoing updates, so we decide to temporarily suspend the provision of model code and weights to the public. We apologize for any inconvenience this may cause.**
+**The latest version of the manuscript is under review, we will release the code and weights upon publication. Here is the citation of the preprint version: **
+
+```
+@misc{yuan2024brainwavebrainsignalfoundation,
+      title={BrainWave: A Brain Signal Foundation Model for Clinical Applications}, 
+      author={Zhizhang Yuan and Fanqi Shen and Meng Li and Yuguo Yu and Chenhao Tan and Yang Yang},
+      year={2024},
+      eprint={2402.10251},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.NC},
+      url={https://arxiv.org/abs/2402.10251}, 
+}
+```
+
+
+
 
 ###########################################################################################
 
-## Framework
+## Introduction
 
-Brant-2 is the first large-scale, off-the-shelf model that can be applied to the application scenrios of both SEEG and EEG. 
+BrainWave is the first foundation model for both invasive and non-invasive neural recordings, pretrained on more than 40,000 hours of electrical brain recordings (13.79 TB of data) from approximately 16,000 individuals. BrainWave outperforms other competing models and consistently achieves state-of-the-art performance in the diagnosis and identification of neurological disorders.
 
-As shown in the figure below, to build such a foundation model, the first step is to gather a large amount of unlabeled SEEG and EEG data, which is then used for large-scale pre-training. For applications, the pre-trained Brant-2 can be served as an off-the-shelf model which can be applied to various downstream scenarios through fine-tuning.
+<img src="/Users/yuanzhizhang/YZZ/research/src/Brant-2-src/Brant-2/img/bw_fig1.png" alt="bw_fig1" style="zoom:55%;" />
 
-![image-20240307133538502](./img/framework.png)
 
-## Performance
-
-The figure below summarizes the overall results of Brant-2 compared with the baseline methods on all the downstream tasks. From the radar chart, it can be observed that Brant-2 outperforms all universal time series modeling methods and pre-training methods on brain signals, even surpassing a majority of scenario-specific methods, indicating that our method exhibits strong generalization ability across various scenarios of brain signals.
-
-<img src="./img/radar.png" alt="image-20240307134300166" style="zoom:30%;" />
 
 ## Ethics Statement
 

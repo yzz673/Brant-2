@@ -23,7 +23,7 @@
 
 BrainWave is the first foundation model for both invasive and non-invasive neural recordings, pretrained on more than 40,000 hours of electrical brain recordings (13.79 TB of data) from approximately 16,000 individuals. BrainWave outperforms other competing models and consistently achieves state-of-the-art performance in the diagnosis and identification of neurological disorders.
 
-<img src="/Users/yuanzhizhang/YZZ/research/src/Brant-2-src/Brant-2/img/bw_fig1.png" alt="bw_fig1" style="zoom:55%;" />
+<img src="./img/bw_fig1.png" alt="bw_fig1" style="zoom:55%;" />
 
 
 
